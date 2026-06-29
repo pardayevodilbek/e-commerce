@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 min-h-screen">
+
+    <nav class="bg-white shadow-sm px-8 py-4 flex items-center justify-between sticky top-0 z-10">
+      <span class="text-red-400 font-semibold text-lg">Cart</span>
+      <a href="index.html" class="text-gray-600 hover:text-gray-900 font-medium transition">Go to Home</a>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 py-10">
+      <h1 class="text-2xl font-semibold text-center text-gray-800 mb-8">Added to Cart Products</h1>
+      <div class="cartContainer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+      <div class="totalContainer fixed bottom-6 right-8"></div>
+    </main>
+
+    <script src="js/cart.js"></script>
+  </body>
+</html>
